@@ -26,6 +26,13 @@
 	transition: 1s;
 }
 
+.contenedor audio{
+	margin-left: 38%;
+	margin-top: 19%;
+	position: absolute;
+}
+
+
 .contenedor h1:hover{
 	cursor: pointer;
 	transition: 1s;
@@ -36,4 +43,16 @@
 	cursor: pointer;
 	transition: 1s;
 	transform: translate(0px,10px);
+}
+
+.navegacion ul{
+	background:black;
+}
+
+.navegacion li{
+	display: inline;
+}
+
+.navegacion a{
+	color: white;
 }
