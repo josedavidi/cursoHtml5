@@ -1,0 +1,78 @@
+<h1>Titulo</h1>
+	<h6>Titulo</h6>
+	<p>Lorem &nbsp;ipsum dolor sit amet, <b>consectetur</b> <br><br> adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<a href="http://youtube.com" target="new">Ir a Youtube</a>
+	<ul>
+		<li><a href="#">Opcion 1</a></li>
+		<li>Opcion 2</li>
+		<li>Opcion 3</li>
+	</ul>
+	<img src="css.png" width="50">
+	<img src="html.jpg" width="50">
+	<br><br><br>
+	<table border="1">
+		<tr>
+			<th>Nombres</th>
+			<th>Apellidos</th>
+			<th>Correo</th>
+			<th>Celular</th>
+		</tr>
+		<tr>
+			<td>Luis</td>
+			<td>Perez</td>
+			<td>luis@live.com</td>
+			<td>029828126</td>
+		</tr
+		<tr>
+			<td>Jose</td>
+			<td>Sanchez</td>
+			<td>jose@gmail.com</td>
+			<td>089823234</td>
+		</tr>
+	</table>
+	<br><br>
+
+	<h1>FORMULARIOS</h1>
+	<form action="#" method="POST">
+		<input type="text" name="" placeholder="ingresa tus nombres" required>
+		<br>
+		<input type="text" name="" placeholder="ingresa tus apellidos" required>
+		<br>
+		<input type="email" name="" placeholder="Ingresa tu correo" required>
+		<br>
+		<input type="tel" name="" placeholder="ingresa tu celular" required>
+		<br>
+		<select>
+			<option>Elige tu genero</option>
+			<option>M</option>
+			<option>F</option>
+		</select>
+		<br>
+		<button>Enviar Informacion</button>
+	</form>
+
+
+	CSS ANIMAIOCNES
+
+	<div class="divi1"></div>
+	.divi1{
+	background: #760EC7;
+	height: 200px;
+	width: 200px;
+	border:10px solid black;
+	box-shadow: 10px 10px 20px #F47300;
+	border-radius: 50px 0px 0px 0px;
+	transition: 1s;
+}
+
+.divi1:hover{
+	border-radius: 180px;
+	cursor: pointer;
+	transition: 1s;
+	background: #EECA00;
+}
